@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.page-container{
+  display:flex;
+  flex-direction:column;
+  min-height:100px;
+}
+.content-wrap{
+  flex:1;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,157 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.header-logo{
+  width: 220px;
+
+}
+.name-pasteleria{
+  margin: 0px;
+  
+}
+.logo-header{
+
+}
+
+@font-face{
+  font-family:Pinufle title;
+  src: local('Pinufle title'),url(./fonts/dancing-script.regular.woff) format('woff');
+}
+.nav-tittle{
+  font-size:30px;
+}
+.pasteleria{
+  font-family:Pinufle tittle;
+  margin-bottom:0px;
+  margin-top:12px;
+}
+.banner{
+  background-color:rgba(171, 239, 245,1);
+  margin:0px;
+  width:100%;
+  height:110px;
+}
+.banner-logo{
+  position:relative;
+  float:bottom;
+
+}
+.banner-tittle{
+font-size:48px;
+}
+.banner-pos{
+    position:relative;
+    float:left
+}
+
+/*flexbox*/
+
+.flexbox-container {
+  display: inline-flex;
+  flex-direction: row;
+  width:100%;
+  flex-wrap:wrap;
+  align-items:baseline;
+  padding-top:40px;
+}
+
+.flexbox-item{
+  
+  padding:0px;
+
+  
+}
+
+/* cat-box CategoryBox*/
+.flexbox-item-catbox{
+  
+  padding:0px;
+  
+}
+/*PRODUCT.JS - PRODUCTO*/
+.flexbox-item-product{
+  margin-left:10px;
+  align-self:center;
+  
+
+}
+.flexbox-container-product{
+  align-content:flex-start;
+  align-items:flex-start;
+  justify-content:center;
+}
+
+.image-responsive{
+  width:100%;
+  height:auto;
+  border:0px;
+  padding:0px;
+  position:relative;
+
+}
+
+.flexbox-item a{
+  width:100%;
+  text-decoration:none;
+  box-sizing:border-box;
+  display:inline-block;
+}
+.flexbox-item a div p{
+  position:absolute;
+  text-align:center;
+  left:0;
+  right:0;
+  top:45%;
+  letter-spacing:3px;
+  color:#ffffff;
+  box-sizing:border-box;
+  -webkit-text-stroke: 0.15px black;
+
+}
+
+.cat-box-container{
+  position:relative;
+  display:inline-block;
+  float:left;
+}
+.cat-box-container-b{
+  position:relative;
+  float:left;
+
+}
+.menu-footer{
+  text-align:left;
+}
+.no-style{
+  text-decoration:none;
+  list-style:none;
+}
+.body{
+  margin-right:auto;
+  margin-left:auto;
+  overflow:unset;
+  background-color:#f7fffe;
+}
+.footer{
+  background-color:rgba(171, 239, 245,1);
+  width:100%;
+  height:100%;
+  margin-top:40px;
+  bottom:0px;
+  position:relative;
+
+}
+.footer h5{
+  text-align:center;
+}
+.prod-img{
+  width:75%;
+  height:220px;
+}
+.prods-container{
+  margin-left:0px;
+  margin-right:15px;
 }

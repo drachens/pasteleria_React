@@ -1,0 +1,69 @@
+
+$black: #000;
+.navbar {
+	background-color:rgba(171, 239, 245,1);
+	
+}
+#nav-item-grey{
+	background-color:grey;
+	color:#000;
+}
+.header-logo{
+	width:80px;
+	opacity:1;
+	padding:0px;
+}
+
+
+
+$navbar-light-color:                rgba($black, 1) !default;
+$navbar-light-hover-color:          rgba($black , 1) !default;
+$navbar-light-active-color:         rgba($black , 3) !default;
+$navbar-light-disabled-color:       rgba($black , .3) !default;
+$navbar-light-toggler-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+$navbar-light-toggler-border-color: rgba(#17a2b8 , .1) !default;
+@import "../node_modules/bootstrap/scss/mixins/_grid-framework.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+%grid-column{
+  
+  padding:0px;
+  
+};
+
+.btn {
+	background-color:white;
+	opacity:0.5;
+	color:black;
+}
+
+.nav-items-pinufle{
+	text-align:center;
+	color:black;
+	display:block;
+	font-size:15px;
+	font-family:'Roboto Condensed', sans-serif;
+	text-transform:uppercase;
+	letter-spacing:-1.0px;
+}
+#shoppingCart{
+	margin:8px;
+
+}
+#formNav{
+	margin-right:10px;
+}
+.flexbox-container-product{
+  align-content:flex-start;
+  align-items:flex-start;
+  justify-content:start;
+  text-align:center;
+  margin-bottom:40px;
+}
+.flexbox-item-product{
+  margin-top:40px;
+  width:390px;
+  display:inline-block;
+  border:solid 1px;
+  margin-right:auto;
+  margin-left:auto;
+}
